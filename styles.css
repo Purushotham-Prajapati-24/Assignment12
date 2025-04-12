@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/063/100/large_2x/rear-view-portrait-of-young-man-traveler-with-backpack-standing-on-a-mountain-with-arms-spread-open-travel-life-style-and-adventure-concept-free-photo.jpg");
+    background-size: cover;
+}
+
+.header h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 6px 6px 12px #000000;
+}
+
+.head1{
+    position:absolute;
+    top: 65%;
+    color: black;
+    left: 5%;
+    
+}
+.head2{
+    position:absolute;
+    top: 65%;
+    color: black;
+    right: 5%;
+}
+
+.container .btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container button{
+    background-color: #FF9402;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.container button:hover{
+    background-color: #eb8b05;
+    transition: 0.2s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.right{
+    background-color: rgb(128, 128, 128, 0.15);
+    height: 550px;
+   
+}
+
+
+image{
+    height: 400px;
+    
+}
+
+img{
+    height: 400px;
+    position:relative;
+    top: 50px;
+    left: -50px;
+    border-radius: 10px;
+    
+}
+.left{
+    width: 500px;
+    margin: 50px;
+}
+.container2 .left h1{
+    color: #004D94;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px 30px;
+    
+}
+
+
+.container2 .left p{
+    color: #004D94;
+    margin: 15px 30px;
+    
+}
+
+.container2 .right .arrows i{
+    font-size: 50px;
+    color: #004D94;
+    margin: 5px 10px;
+    position:relative;
+    top: 50px;
+    
+    
+}
+
+.item1{
+    grid-area: Area;
+}
+
+.container3{
+    display: grid;
+    grid-template-areas: "Area . . ." "Area Tent Tent ." ;
+    grid-gap: 10px;
+    
+    
+}
+
+.container3 h1{
+    color: #004D94;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 30px;
+}
+
+.container3 > div > img{
+    width: 300px;
+    height: auto;
+}
+
+.container3>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer{
+    margin: 20px ;
+}
+
+footer h1{
+    color: #004D94;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.options a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #004D94;
+    font-size: 20px; 
+}
+.options{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+ a{
+    position: relative;
+    color: #003366; /* Optional: your text color */
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 4px;
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: orange;
+    transition: width 0.3s ease;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
